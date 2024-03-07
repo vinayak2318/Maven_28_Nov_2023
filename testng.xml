@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="testng.retryanalysis.IAnnotationTransformerExample"></listener>
+    </listeners>
+<!--    <parameter name="coursename" value="Selenium"/>
+    <parameter name="cityname" value="Pune"/>
+    <parameter name="browserName" value="firefox"/>-->
+
+    <test verbose="10" preserve-order="true" parallel="false" thread-count="4" name="C:/Users/HP/IdeaProjects/Maven_28_Nov_2023">
+        <classes>
+            <class name="testng.manualapproachforfailedtests.SampleTestCases"/>
+            <class name="testng.manualapproachforfailedtests.SampleTestCase2"/>
+    <!--        <class name="testng.parameterization.WithParameterization"/>
+       &lt;!&ndash;     <class name="testng.parameterization.DataProviderWithExcel"/>
+            <class name="testng.parameterization.NeedOfParameterization"/>
+            <class name="testng.parameterization.NormalDataProvider"/>&ndash;&gt;-->
+
+        </classes>
+    </test>
+</suite>
