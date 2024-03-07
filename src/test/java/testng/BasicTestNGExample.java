@@ -10,6 +10,7 @@ public class BasicTestNGExample {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.makemytrip.com/");
         driver.manage().window().maximize();
+        System.out.println("Hello Everyone");
         driver.close();
     }
     @Test
